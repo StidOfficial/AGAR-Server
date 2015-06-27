@@ -1,0 +1,5 @@
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\AgarEmulator1\AgarEmulator1\bin\Debug\AgarEmulator1.exe
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\AgarEmulator1\AgarEmulator1\bin\Debug\AgarEmulator1.pdb
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\AgarEmulator1\AgarEmulator1\obj\x86\Debug\AgarEmulator1.exe
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\AgarEmulator1\AgarEmulator1\obj\x86\Debug\AgarEmulator1.pdb
+C:\Users\Utilisateur\documents\visual studio 2010\Projects\AgarEmulator1\AgarEmulator1\obj\x86\Debug\AgarEmulator1.csprojResolveAssemblyReference.cache

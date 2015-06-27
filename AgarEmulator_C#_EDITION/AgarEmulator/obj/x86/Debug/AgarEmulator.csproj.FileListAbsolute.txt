@@ -1,0 +1,10 @@
+C:\Users\Utilisateur\AppData\Local\Temporary Projects\AgarEmulator\bin\Debug\AgarEmulator.exe
+C:\Users\Utilisateur\AppData\Local\Temporary Projects\AgarEmulator\bin\Debug\AgarEmulator.pdb
+C:\Users\Utilisateur\AppData\Local\Temporary Projects\AgarEmulator\obj\x86\Debug\AgarEmulator.exe
+C:\Users\Utilisateur\AppData\Local\Temporary Projects\AgarEmulator\obj\x86\Debug\AgarEmulator.pdb
+C:\Users\Utilisateur\documents\visual studio 2010\Projects\AgarEmulator1\AgarEmulator1\obj\x86\Debug\AgarEmulator.exe
+C:\Users\Utilisateur\documents\visual studio 2010\Projects\AgarEmulator1\AgarEmulator1\obj\x86\Debug\AgarEmulator.pdb
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\AgarEmulator\AgarEmulator\obj\x86\Debug\AgarEmulator.exe
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\AgarEmulator\AgarEmulator\obj\x86\Debug\AgarEmulator.pdb
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\AgarEmulator\AgarEmulator\bin\Debug\AgarEmulator.exe
+C:\Users\Utilisateur\Documents\Visual Studio 2010\Projects\AgarEmulator\AgarEmulator\bin\Debug\AgarEmulator.pdb
