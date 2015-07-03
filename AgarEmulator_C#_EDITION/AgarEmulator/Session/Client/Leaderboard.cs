@@ -33,19 +33,25 @@ namespace AgarEmulator.Session.Client
         public static byte[] Packet(int MaxPlayer) {
             String[][] ClientList = { new String[] { "6465", "Stid" }, new String[] { "6465", "qdzq" }, new String[] { "6465", "qdqzdqzq" }, new String[] { "6465", "Stid" }, new String[] { "6465", "qdzq" }, new String[] { "6465", "qdqzdqzq" }, new String[] { "6465", "Stid" }, new String[] { "6465", "qdzq" }, new String[] { "6465", "qdqzdqzq" }, new String[] { "6465", "Stid" } };
 
-            byte[] Leaderboard = new byte[4];
+            byte[] Leaderboard;
+                
+            if(getPacketID() == 49) {
+                Leaderboard = new byte[4];
 
-            Array.Copy(PacketManager.UInt32ToByte(Convert.ToUInt32(MaxPlayer)), 0, Leaderboard, 0, 4);
-
-            int Pos = 4;
-            for (int i = 0; i < MaxPlayer; i++ )
-            {
-                byte[] Nickname = PacketManager.StringToByte(ClientList[i][1]);
-                Array.Resize(ref Leaderboard, Leaderboard.Length + 4 + Nickname.Length);
-                Array.Copy(PacketManager.UInt32ToByte(Convert.ToUInt32(ClientList[i][0])), 0, Leaderboard, Pos, 4); // Id Player
-                Pos += 4;
-                Array.Copy(Nickname, 0, Leaderboard, Pos, Nickname.Length);
-                Pos += Nickname.Length;
+                Array.Copy(PacketManager.UInt32ToByte(Convert.ToUInt32(MaxPlayer)), 0, Leaderboard, 0, 4);
+    
+                int Pos = 4;
+                for (int i = 0; i < MaxPlayer; i++ )
+                {
+                    byte[] Nickname = PacketManager.StringToByte(ClientList[i][1]);
+                    Array.Resize(ref Leaderboard, Leaderboard.Length + 4 + Nickname.Length);
+                    Array.Copy(PacketManager.UInt32ToByte(Convert.ToUInt32(ClientList[i][0])), 0, Leaderboard, Pos, 4); // Id Player
+                    Pos += 4;
+                    Array.Copy(Nickname, 0, Leaderboard, Pos, Nickname.Length);
+                    Pos += Nickname.Length;
+                }
+            }else if(getPacketID() == 50){
+                // A faire
             }
 
             return Leaderboard;
